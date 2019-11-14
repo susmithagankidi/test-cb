@@ -3,5 +3,7 @@ phases:
   install:
     commands:
       - ls -la 
+      - cd testfolder
+      - ls -la
     runtime-versions:
       python: 3.7
